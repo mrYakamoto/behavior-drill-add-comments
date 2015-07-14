@@ -43,7 +43,7 @@ structure of the page.
 ### Release 0 : Write your Script for Adding Comments
 
 The desired behavior is shown in the following screencast: [Add
-Comments](http://www.youtube.com/embed/wVQ8DQzxceQ)
+Comments](https://vimeo.com/130871324)
 
 Not very exciting, but this is such a common pattern (adding new elements to
 the DOM via a form) that it is important to understand how to make it work.
