@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="main.css">
+
   <title>Add Comments</title>
 </head>
 <body>
@@ -19,8 +20,11 @@
         <span class="author">Tom Jones</span>
       </li>
     </ul>
-
-
+    <form id="new_comment">
+      <input id="commentText" type="textarea" name="commentText" placeholder="add your comment here"></input><br>
+       <input id="authorName" type="text" name="authorName" placeholder="your name here"></input>
+       <input id= "submitComment" type="submit" value="create comment"></input>
+    </form>
     <button id="new_comment_button">New Comment</button>
   </div>
   <script src="jquery-1.10.js"></script>
