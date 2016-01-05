@@ -42,6 +42,8 @@ form#new_comment {
   border-radius: 3px;
 }
 
+
+
 form#new_comment textarea {
   width: 100%;
 }
@@ -49,6 +51,11 @@ form#new_comment textarea {
 form#new_comment input#authorName {
   min-width: 50%;
   max-width: 68%;
+}
+
+form#new_comment input#commentText {
+  width: 90%;
+  height: 60%;
 }
 
 form#new_comment input[type="submit"] {
